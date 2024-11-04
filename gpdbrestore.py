@@ -153,6 +153,7 @@ def dataonly_restore():
         '--data-only',
         '--incremental',
         '--verbose',
+        '--jobs', 8,
         '--report-dir', reportdir
     ]
      
